@@ -1,0 +1,279 @@
+2023-07-25 04:30:14,816 INFO [Timer-Driven Process Thread-5] o.a.n.p.store.WriteAheadStorePartition Successfully rolled over Event Writer for Provenance Event Store Partition[directory=./provenance_repository] due to MAX_TIME_REACHED. Event File was 21.91 KB and contained 20 events.
+2023-07-25 04:30:31,854 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:30:31,855 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.15 GB, capacity = 476.21 GB
+2023-07-25 04:30:31,997 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:30:32,066 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4784 Records and 0 Swap Files in 68 milliseconds (Stop-the-world time = 20 milliseconds), max Transaction ID 5997
+2023-07-25 04:30:32,066 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4784 records in 68 milliseconds
+2023-07-25 04:30:52,067 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:30:52,140 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4785 Records and 0 Swap Files in 72 milliseconds (Stop-the-world time = 18 milliseconds), max Transaction ID 5998
+2023-07-25 04:30:52,140 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4785 records in 72 milliseconds
+2023-07-25 04:31:12,141 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:31:12,142 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4785 records in 0 milliseconds
+2023-07-25 04:31:21,487 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7c4dd006 checkpointed with 5 Records and 0 Swap Files in 275 milliseconds (Stop-the-world time = 110 milliseconds, Clear Edit Logs time = 146 millis), max Transaction ID 2126
+2023-07-25 04:31:32,143 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:31:32,220 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4786 Records and 0 Swap Files in 76 milliseconds (Stop-the-world time = 13 milliseconds), max Transaction ID 5999
+2023-07-25 04:31:32,220 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4786 records in 77 milliseconds
+2023-07-25 04:31:32,775 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:31:32,776 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:31:52,221 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:31:52,287 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4787 Records and 0 Swap Files in 64 milliseconds (Stop-the-world time = 14 milliseconds), max Transaction ID 6000
+2023-07-25 04:31:52,287 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4787 records in 64 milliseconds
+2023-07-25 04:32:12,287 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:32:12,288 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4787 records in 0 milliseconds
+2023-07-25 04:32:32,289 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:32:32,356 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4788 Records and 0 Swap Files in 65 milliseconds (Stop-the-world time = 14 milliseconds), max Transaction ID 6001
+2023-07-25 04:32:32,356 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4788 records in 65 milliseconds
+2023-07-25 04:32:33,651 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:32:33,652 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:32:52,356 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:32:52,425 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4789 Records and 0 Swap Files in 67 milliseconds (Stop-the-world time = 12 milliseconds), max Transaction ID 6002
+2023-07-25 04:32:52,425 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4789 records in 68 milliseconds
+2023-07-25 04:33:12,426 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:33:12,427 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4789 records in 0 milliseconds
+2023-07-25 04:33:21,758 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7c4dd006 checkpointed with 5 Records and 0 Swap Files in 269 milliseconds (Stop-the-world time = 99 milliseconds, Clear Edit Logs time = 143 millis), max Transaction ID 2130
+2023-07-25 04:33:32,428 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:33:32,495 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4790 Records and 0 Swap Files in 66 milliseconds (Stop-the-world time = 12 milliseconds), max Transaction ID 6003
+2023-07-25 04:33:32,496 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4790 records in 66 milliseconds
+2023-07-25 04:33:34,588 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:33:34,589 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:33:52,497 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:33:52,564 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4791 Records and 0 Swap Files in 66 milliseconds (Stop-the-world time = 12 milliseconds), max Transaction ID 6004
+2023-07-25 04:33:52,565 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4791 records in 66 milliseconds
+2023-07-25 04:34:12,565 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:34:12,566 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4791 records in 0 milliseconds
+2023-07-25 04:34:32,566 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:34:32,644 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4792 Records and 0 Swap Files in 76 milliseconds (Stop-the-world time = 15 milliseconds), max Transaction ID 6005
+2023-07-25 04:34:32,644 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4792 records in 76 milliseconds
+2023-07-25 04:34:35,477 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:34:35,477 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:34:52,644 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:34:52,719 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4793 Records and 0 Swap Files in 73 milliseconds (Stop-the-world time = 19 milliseconds), max Transaction ID 6006
+2023-07-25 04:34:52,720 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4793 records in 73 milliseconds
+2023-07-25 04:35:12,720 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:35:12,721 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4793 records in 0 milliseconds
+2023-07-25 04:35:22,034 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7c4dd006 checkpointed with 5 Records and 0 Swap Files in 276 milliseconds (Stop-the-world time = 94 milliseconds, Clear Edit Logs time = 158 millis), max Transaction ID 2134
+2023-07-25 04:35:32,721 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:35:32,798 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4794 Records and 0 Swap Files in 75 milliseconds (Stop-the-world time = 20 milliseconds), max Transaction ID 6007
+2023-07-25 04:35:32,798 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4794 records in 75 milliseconds
+2023-07-25 04:35:36,378 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:35:36,379 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:35:52,799 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:35:52,872 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4795 Records and 0 Swap Files in 72 milliseconds (Stop-the-world time = 20 milliseconds), max Transaction ID 6008
+2023-07-25 04:35:52,872 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4795 records in 72 milliseconds
+2023-07-25 04:36:12,873 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:36:12,874 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4795 records in 0 milliseconds
+2023-07-25 04:36:32,875 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:36:32,951 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4796 Records and 0 Swap Files in 74 milliseconds (Stop-the-world time = 21 milliseconds), max Transaction ID 6009
+2023-07-25 04:36:32,952 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4796 records in 75 milliseconds
+2023-07-25 04:36:37,266 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:36:37,267 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:36:52,952 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:36:53,028 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4797 Records and 0 Swap Files in 74 milliseconds (Stop-the-world time = 20 milliseconds), max Transaction ID 6010
+2023-07-25 04:36:53,029 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4797 records in 74 milliseconds
+2023-07-25 04:37:13,029 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:37:13,031 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4797 records in 0 milliseconds
+2023-07-25 04:37:22,298 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7c4dd006 checkpointed with 5 Records and 0 Swap Files in 264 milliseconds (Stop-the-world time = 100 milliseconds, Clear Edit Logs time = 143 millis), max Transaction ID 2138
+2023-07-25 04:37:33,032 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:37:33,107 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4798 Records and 0 Swap Files in 73 milliseconds (Stop-the-world time = 13 milliseconds), max Transaction ID 6011
+2023-07-25 04:37:33,108 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4798 records in 74 milliseconds
+2023-07-25 04:37:38,175 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:37:38,175 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:37:53,109 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:37:53,186 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4799 Records and 0 Swap Files in 74 milliseconds (Stop-the-world time = 20 milliseconds), max Transaction ID 6012
+2023-07-25 04:37:53,186 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4799 records in 75 milliseconds
+2023-07-25 04:38:13,186 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:38:13,188 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4799 records in 0 milliseconds
+2023-07-25 04:38:33,189 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:38:33,269 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4800 Records and 0 Swap Files in 77 milliseconds (Stop-the-world time = 21 milliseconds), max Transaction ID 6013
+2023-07-25 04:38:33,269 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4800 records in 78 milliseconds
+2023-07-25 04:38:39,094 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:38:39,095 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:38:53,270 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:38:53,347 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4801 Records and 0 Swap Files in 75 milliseconds (Stop-the-world time = 19 milliseconds), max Transaction ID 6014
+2023-07-25 04:38:53,348 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4801 records in 76 milliseconds
+2023-07-25 04:39:13,348 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:39:13,350 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4801 records in 0 milliseconds
+2023-07-25 04:39:22,558 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7c4dd006 checkpointed with 5 Records and 0 Swap Files in 258 milliseconds (Stop-the-world time = 96 milliseconds, Clear Edit Logs time = 136 millis), max Transaction ID 2142
+2023-07-25 04:39:33,350 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:39:33,421 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4802 Records and 0 Swap Files in 69 milliseconds (Stop-the-world time = 18 milliseconds), max Transaction ID 6015
+2023-07-25 04:39:33,421 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4802 records in 69 milliseconds
+2023-07-25 04:39:39,996 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:39:39,997 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.15 GB, capacity = 476.21 GB
+2023-07-25 04:39:53,421 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:39:53,491 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4803 Records and 0 Swap Files in 68 milliseconds (Stop-the-world time = 12 milliseconds), max Transaction ID 6016
+2023-07-25 04:39:53,491 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4803 records in 68 milliseconds
+2023-07-25 04:40:13,491 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:40:13,492 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4803 records in 0 milliseconds
+2023-07-25 04:40:15,009 INFO [Timer-Driven Process Thread-9] o.a.n.p.store.WriteAheadStorePartition Successfully rolled over Event Writer for Provenance Event Store Partition[directory=./provenance_repository] due to MAX_TIME_REACHED. Event File was 21.91 KB and contained 20 events.
+2023-07-25 04:40:33,493 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:40:33,568 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4804 Records and 0 Swap Files in 74 milliseconds (Stop-the-world time = 19 milliseconds), max Transaction ID 6017
+2023-07-25 04:40:33,569 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4804 records in 74 milliseconds
+2023-07-25 04:40:40,959 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:40:40,960 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.15 GB, capacity = 476.21 GB
+2023-07-25 04:40:53,569 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:40:53,645 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4805 Records and 0 Swap Files in 74 milliseconds (Stop-the-world time = 18 milliseconds), max Transaction ID 6018
+2023-07-25 04:40:53,645 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4805 records in 74 milliseconds
+2023-07-25 04:41:13,646 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:41:13,647 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4805 records in 0 milliseconds
+2023-07-25 04:41:22,820 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7c4dd006 checkpointed with 5 Records and 0 Swap Files in 262 milliseconds (Stop-the-world time = 95 milliseconds, Clear Edit Logs time = 141 millis), max Transaction ID 2146
+2023-07-25 04:41:33,647 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:41:33,729 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4806 Records and 0 Swap Files in 81 milliseconds (Stop-the-world time = 23 milliseconds), max Transaction ID 6019
+2023-07-25 04:41:33,730 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4806 records in 81 milliseconds
+2023-07-25 04:41:41,891 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:41:41,892 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.15 GB, capacity = 476.21 GB
+2023-07-25 04:41:53,730 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:41:53,811 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4807 Records and 0 Swap Files in 79 milliseconds (Stop-the-world time = 21 milliseconds), max Transaction ID 6020
+2023-07-25 04:41:53,811 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4807 records in 79 milliseconds
+2023-07-25 04:42:13,812 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:42:13,814 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4807 records in 0 milliseconds
+2023-07-25 04:42:33,814 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:42:33,891 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4808 Records and 0 Swap Files in 75 milliseconds (Stop-the-world time = 19 milliseconds), max Transaction ID 6021
+2023-07-25 04:42:33,891 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4808 records in 75 milliseconds
+2023-07-25 04:42:42,777 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:42:42,778 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.15 GB, capacity = 476.21 GB
+2023-07-25 04:42:53,891 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:42:53,955 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4809 Records and 0 Swap Files in 63 milliseconds (Stop-the-world time = 12 milliseconds), max Transaction ID 6022
+2023-07-25 04:42:53,956 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4809 records in 63 milliseconds
+2023-07-25 04:43:13,956 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:43:13,958 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4809 records in 0 milliseconds
+2023-07-25 04:43:23,072 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7c4dd006 checkpointed with 5 Records and 0 Swap Files in 251 milliseconds (Stop-the-world time = 94 milliseconds, Clear Edit Logs time = 140 millis), max Transaction ID 2150
+2023-07-25 04:43:33,959 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:43:34,032 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4810 Records and 0 Swap Files in 71 milliseconds (Stop-the-world time = 19 milliseconds), max Transaction ID 6023
+2023-07-25 04:43:34,032 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4810 records in 72 milliseconds
+2023-07-25 04:43:43,706 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:43:43,706 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:43:54,032 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:43:54,108 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4811 Records and 0 Swap Files in 75 milliseconds (Stop-the-world time = 20 milliseconds), max Transaction ID 6024
+2023-07-25 04:43:54,109 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4811 records in 75 milliseconds
+2023-07-25 04:44:14,110 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:44:14,111 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4811 records in 0 milliseconds
+2023-07-25 04:44:34,111 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:44:34,187 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4812 Records and 0 Swap Files in 74 milliseconds (Stop-the-world time = 20 milliseconds), max Transaction ID 6025
+2023-07-25 04:44:34,187 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4812 records in 74 milliseconds
+2023-07-25 04:44:44,662 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:44:44,663 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:44:54,188 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:44:54,277 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4813 Records and 0 Swap Files in 87 milliseconds (Stop-the-world time = 31 milliseconds), max Transaction ID 6026
+2023-07-25 04:44:54,277 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4813 records in 88 milliseconds
+2023-07-25 04:45:14,278 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:45:14,280 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4813 records in 0 milliseconds
+2023-07-25 04:45:23,349 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7c4dd006 checkpointed with 5 Records and 0 Swap Files in 277 milliseconds (Stop-the-world time = 107 milliseconds, Clear Edit Logs time = 150 millis), max Transaction ID 2154
+2023-07-25 04:45:34,282 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:45:34,351 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4814 Records and 0 Swap Files in 68 milliseconds (Stop-the-world time = 14 milliseconds), max Transaction ID 6027
+2023-07-25 04:45:34,352 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4814 records in 68 milliseconds
+2023-07-25 04:45:45,572 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:45:45,573 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:45:54,352 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:45:54,425 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4815 Records and 0 Swap Files in 72 milliseconds (Stop-the-world time = 19 milliseconds), max Transaction ID 6028
+2023-07-25 04:45:54,425 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4815 records in 72 milliseconds
+2023-07-25 04:46:14,425 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:46:14,427 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4815 records in 0 milliseconds
+2023-07-25 04:46:34,428 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:46:34,506 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4816 Records and 0 Swap Files in 76 milliseconds (Stop-the-world time = 18 milliseconds), max Transaction ID 6029
+2023-07-25 04:46:34,506 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4816 records in 77 milliseconds
+2023-07-25 04:46:46,505 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:46:46,506 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:46:54,507 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:46:54,581 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4817 Records and 0 Swap Files in 73 milliseconds (Stop-the-world time = 19 milliseconds), max Transaction ID 6030
+2023-07-25 04:46:54,582 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4817 records in 73 milliseconds
+2023-07-25 04:47:14,582 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:47:14,583 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4817 records in 0 milliseconds
+2023-07-25 04:47:23,624 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7c4dd006 checkpointed with 5 Records and 0 Swap Files in 275 milliseconds (Stop-the-world time = 102 milliseconds, Clear Edit Logs time = 145 millis), max Transaction ID 2158
+2023-07-25 04:47:34,583 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:47:34,653 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4818 Records and 0 Swap Files in 69 milliseconds (Stop-the-world time = 19 milliseconds), max Transaction ID 6031
+2023-07-25 04:47:34,653 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4818 records in 69 milliseconds
+2023-07-25 04:47:47,403 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:47:47,404 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:47:54,654 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:47:54,722 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4819 Records and 0 Swap Files in 67 milliseconds (Stop-the-world time = 13 milliseconds), max Transaction ID 6032
+2023-07-25 04:47:54,722 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4819 records in 67 milliseconds
+2023-07-25 04:48:14,723 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:48:14,724 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4819 records in 0 milliseconds
+2023-07-25 04:48:34,725 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:48:34,794 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4820 Records and 0 Swap Files in 67 milliseconds (Stop-the-world time = 12 milliseconds), max Transaction ID 6033
+2023-07-25 04:48:34,794 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4820 records in 67 milliseconds
+2023-07-25 04:48:48,215 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:48:48,216 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.15 GB, capacity = 476.21 GB
+2023-07-25 04:48:54,795 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:48:54,861 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4821 Records and 0 Swap Files in 65 milliseconds (Stop-the-world time = 13 milliseconds), max Transaction ID 6034
+2023-07-25 04:48:54,862 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4821 records in 66 milliseconds
+2023-07-25 04:49:14,862 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:49:14,863 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4821 records in 0 milliseconds
+2023-07-25 04:49:23,891 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7c4dd006 checkpointed with 5 Records and 0 Swap Files in 267 milliseconds (Stop-the-world time = 96 milliseconds, Clear Edit Logs time = 143 millis), max Transaction ID 2162
+2023-07-25 04:49:34,863 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:49:34,934 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4822 Records and 0 Swap Files in 68 milliseconds (Stop-the-world time = 13 milliseconds), max Transaction ID 6035
+2023-07-25 04:49:34,934 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4822 records in 69 milliseconds
+2023-07-25 04:49:49,153 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:49:49,154 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.15 GB, capacity = 476.21 GB
+2023-07-25 04:49:54,935 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:49:55,008 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4823 Records and 0 Swap Files in 73 milliseconds (Stop-the-world time = 18 milliseconds), max Transaction ID 6036
+2023-07-25 04:49:55,009 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4823 records in 73 milliseconds
+2023-07-25 04:50:15,010 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:50:15,011 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4823 records in 0 milliseconds
+2023-07-25 04:50:15,187 INFO [Timer-Driven Process Thread-9] o.a.n.p.store.WriteAheadStorePartition Successfully rolled over Event Writer for Provenance Event Store Partition[directory=./provenance_repository] due to MAX_TIME_REACHED. Event File was 21.91 KB and contained 20 events.
+2023-07-25 04:50:35,011 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:50:35,092 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4824 Records and 0 Swap Files in 79 milliseconds (Stop-the-world time = 21 milliseconds), max Transaction ID 6037
+2023-07-25 04:50:35,092 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4824 records in 79 milliseconds
+2023-07-25 04:50:50,083 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:50:50,084 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.15 GB, capacity = 476.21 GB
+2023-07-25 04:50:55,093 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:50:55,158 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4825 Records and 0 Swap Files in 64 milliseconds (Stop-the-world time = 12 milliseconds), max Transaction ID 6038
+2023-07-25 04:50:55,158 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4825 records in 64 milliseconds
+2023-07-25 04:51:15,159 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:51:15,160 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4825 records in 0 milliseconds
+2023-07-25 04:51:24,144 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7c4dd006 checkpointed with 5 Records and 0 Swap Files in 253 milliseconds (Stop-the-world time = 97 milliseconds, Clear Edit Logs time = 137 millis), max Transaction ID 2166
+2023-07-25 04:51:35,161 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:51:35,236 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4826 Records and 0 Swap Files in 74 milliseconds (Stop-the-world time = 19 milliseconds), max Transaction ID 6039
+2023-07-25 04:51:35,237 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4826 records in 74 milliseconds
+2023-07-25 04:51:50,958 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:51:50,959 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.15 GB, capacity = 476.21 GB
+2023-07-25 04:51:55,237 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:51:55,312 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4827 Records and 0 Swap Files in 73 milliseconds (Stop-the-world time = 20 milliseconds), max Transaction ID 6040
+2023-07-25 04:51:55,312 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4827 records in 74 milliseconds
+2023-07-25 04:52:15,313 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:52:15,396 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4828 Records and 0 Swap Files in 82 milliseconds (Stop-the-world time = 20 milliseconds), max Transaction ID 6041
+2023-07-25 04:52:15,397 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4828 records in 82 milliseconds
+2023-07-25 04:52:35,397 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:52:35,399 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4828 records in 0 milliseconds
+2023-07-25 04:52:51,846 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:52:51,847 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.15 GB, capacity = 476.21 GB
+2023-07-25 04:52:55,399 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:52:55,476 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4829 Records and 0 Swap Files in 76 milliseconds (Stop-the-world time = 19 milliseconds), max Transaction ID 6042
+2023-07-25 04:52:55,476 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4829 records in 76 milliseconds
+2023-07-25 04:53:15,477 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:53:15,551 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4830 Records and 0 Swap Files in 73 milliseconds (Stop-the-world time = 11 milliseconds), max Transaction ID 6043
+2023-07-25 04:53:15,552 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4830 records in 74 milliseconds
+2023-07-25 04:53:24,449 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7c4dd006 checkpointed with 5 Records and 0 Swap Files in 304 milliseconds (Stop-the-world time = 109 milliseconds, Clear Edit Logs time = 176 millis), max Transaction ID 2170
+2023-07-25 04:53:35,552 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:53:35,554 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4830 records in 0 milliseconds
+2023-07-25 04:53:52,723 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:53:52,724 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.15 GB, capacity = 476.21 GB
+2023-07-25 04:53:55,554 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:53:55,628 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4831 Records and 0 Swap Files in 72 milliseconds (Stop-the-world time = 19 milliseconds), max Transaction ID 6044
+2023-07-25 04:53:55,628 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4831 records in 73 milliseconds
+2023-07-25 04:54:15,629 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:54:15,698 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4832 Records and 0 Swap Files in 67 milliseconds (Stop-the-world time = 12 milliseconds), max Transaction ID 6045
+2023-07-25 04:54:15,699 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4832 records in 68 milliseconds
+2023-07-25 04:54:35,699 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:54:35,700 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4832 records in 0 milliseconds
+2023-07-25 04:54:53,646 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:54:53,647 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.16 GB, capacity = 476.21 GB
+2023-07-25 04:54:55,701 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:54:55,772 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4833 Records and 0 Swap Files in 69 milliseconds (Stop-the-world time = 16 milliseconds), max Transaction ID 6046
+2023-07-25 04:54:55,772 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4833 records in 70 milliseconds
+2023-07-25 04:55:15,773 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:55:15,854 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4834 Records and 0 Swap Files in 80 milliseconds (Stop-the-world time = 23 milliseconds), max Transaction ID 6047
+2023-07-25 04:55:15,855 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4834 records in 80 milliseconds
+2023-07-25 04:55:24,717 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7c4dd006 checkpointed with 5 Records and 0 Swap Files in 268 milliseconds (Stop-the-world time = 98 milliseconds, Clear Edit Logs time = 151 millis), max Transaction ID 2174
+2023-07-25 04:55:35,855 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:55:35,857 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4834 records in 0 milliseconds
+2023-07-25 04:55:54,528 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2023-07-25 04:55:54,529 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Archive cleanup completed for container default; will now allow writing to this container. Bytes used = 207.06 GB, bytes free = 269.15 GB, capacity = 476.21 GB
+2023-07-25 04:55:55,858 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:55:55,943 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4835 Records and 0 Swap Files in 84 milliseconds (Stop-the-world time = 20 milliseconds), max Transaction ID 6048
+2023-07-25 04:55:55,943 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4835 records in 84 milliseconds
+2023-07-25 04:56:15,943 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:56:16,021 INFO [pool-7-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 4836 Records and 0 Swap Files in 76 milliseconds (Stop-the-world time = 21 milliseconds), max Transaction ID 6049
+2023-07-25 04:56:16,021 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4836 records in 76 milliseconds
+2023-07-25 04:56:36,022 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2023-07-25 04:56:36,023 INFO [pool-7-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 4836 records in 0 milliseconds

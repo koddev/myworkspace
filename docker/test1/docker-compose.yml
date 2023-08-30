@@ -1,0 +1,18 @@
+version: '3.8'
+
+
+
+
+
+services:
+  pythonapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - type: bind
+        source: ./pythonapp_image/data
+        target: /usr/src/app/data
+
+   
+

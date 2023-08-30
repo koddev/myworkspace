@@ -1,0 +1,44 @@
+version: '3.8'
+
+
+services:
+  nifi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nifi
+    volumes:
+      - ./nifi/database_repository:${NIFI_HOME}/database_repository
+      - ./nifi/flowfile_repository:${NIFI_HOME}/flowfile_repository
+      - ./nifi/content_repository:${NIFI_HOME}/content_repository
+      - ./nifi/provenance_repository:${NIFI_HOME}/provenance_repository
+      - ./nifi/logs:${NIFI_HOME}/logs
+      - ./nifi/state:${NIFI_HOME}/state   
+
+
+    environment:
+      - SINGLE_USER_CREDENTIALS_USERNAME=${SINGLE_USER_CREDENTIALS_USERNAME}
+      - SINGLE_USER_CREDENTIALS_PASSWORD=${SINGLE_USER_CREDENTIALS_PASSWORD}
+      - NIFI_JVM_HEAP_INIT=1g
+      - NIFI_JVM_HEAP_MAX=1g
+      # - NIFI_WEB_HTTPS_PORT=8443
+      # - NIFI_CLUSTER_IS_NODE=true
+      # - NIFI_CLUSTER_NODE_PROTOCOL_PORT=1055
+      # - NIFI_CLUSTER_PROTOCOL_IS_SECURE=true
+      # - NIFI_ZK_CONNECT_STRING=zookeeper1:2181,zookeeper2:2181,zookeeper3:2181
+      # - NIFI_ELECTION_MAX_WAIT=2 min
+      # - NIFI_ELECTION_MAX_CANDIDATES=3
+      # - NIFI_WEB_HTTPS_HOST=nifidev01-nifi
+      # - NIFI_WEB_PROXY_HOST=nifidev01-nifi1:8443,nifidev02-nifi1:8443,nifidev03-nifi1:8443,nifidev01.test.local:8443,nifidev02.test.local:8443,nifidev03.test.local:8443
+      # - INITIAL_ADMIN_IDENTITY=testUser
+      # - NODE_IDENTITY=CN=servername-nifi1, OU=NIFI
+      # - KEYSTORE_PATH=/opt/nifi/nifi-current/certs/keystore.jks
+      # - KEYSTORE_TYPE=jks
+      # - KEYSTORE_PASSWORD=testpassword
+      # - TRUSTSTORE_PATH=/opt/nifi/nifi-current/certs/truststore.jks
+      # - TRUSTSTORE_TYPE=jks
+      # - TRUSTSTORE_PASSWORD=testpassword
+      
+    ports:
+      - "8443:8443"
+      
