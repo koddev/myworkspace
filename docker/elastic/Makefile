@@ -1,15 +1,14 @@
-.PHONY: config
-config:
-	rm -rf clickhouse01 clickhouse02 clickhouse03 clickhouse04
+
+
 
 
 .PHONY: up
 up:
-	docker-compose up
+	docker compose -f ./compose1/docker-compose.yml up
 
 .PHONY: up2
 up2:
-	docker compose -f docker-compose_cert.yml up
+	docker compose -f ./compose2/docker-compose.yml up
 
 .PHONY: up3
 
@@ -24,7 +23,7 @@ up3:
 	-p 9300:9300 \
 	-e node.name="es1" \
 	-e ES_JAVA_OPTS="-Xms4g -Xmx4g"\
-	 docker.elastic.co/elasticsearch/elasticsearch:8.8.2 
+	 docker.elastic.co/elasticsearch/elasticsearch:8.9.1 
  
 
 
@@ -38,8 +37,8 @@ stop:
 
 .PHONY: down
 down:
-	docker-compose down
+	docker compose -f ./compose1/docker-compose.yml down -v
 
 .PHONY: down2
 down2:
-	docker compose -f docker-compose_cert.yml down -v
+	docker compose -f ./compose2/docker-compose.yml down -v
