@@ -4,7 +4,7 @@ services:
   setup:
     image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
     volumes:
-      - certs:/usr/share/elasticsearch/config/certs
+      - elk-certs:/usr/share/elasticsearch/config/certs
       - type: bind
         source: ./shared_folder
         target: /shared_folder
@@ -73,8 +73,8 @@ services:
         condition: service_healthy
     image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
     volumes:
-      - certs:/usr/share/elasticsearch/config/certs
-      - esdata01:/usr/share/elasticsearch/data
+      - elk-certs:/usr/share/elasticsearch/config/certs
+      - elk-esdata1:/usr/share/elasticsearch/data
       
     ports:
       - ${ES_PORT}:9200
@@ -117,8 +117,8 @@ services:
       - es01
     image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
     volumes:
-      - certs:/usr/share/elasticsearch/config/certs
-      - esdata02:/usr/share/elasticsearch/data
+      - elk-certs:/usr/share/elasticsearch/config/certs
+      - elk-esdata2:/usr/share/elasticsearch/data
     environment:
       - node.name=es02
       - cluster.name=${CLUSTER_NAME}
@@ -157,8 +157,8 @@ services:
       - es02
     image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
     volumes:
-      - certs:/usr/share/elasticsearch/config/certs
-      - esdata03:/usr/share/elasticsearch/data
+      - elk-certs:/usr/share/elasticsearch/config/certs
+      - elk-esdata3:/usr/share/elasticsearch/data
     environment:
       - node.name=es03
       - cluster.name=${CLUSTER_NAME}
@@ -202,8 +202,8 @@ services:
         condition: service_healthy
     image: docker.elastic.co/kibana/kibana:${STACK_VERSION}
     volumes:
-      - certs:/usr/share/kibana/config/certs
-      - kibanadata:/usr/share/kibana/data
+      - elk-certs:/usr/share/kibana/config/certs
+      - elk-kibana:/usr/share/kibana/data
     ports:
       - ${KIBANA_PORT}:5601
     environment:
@@ -224,13 +224,16 @@ services:
       retries: 120
 
 volumes:
-  certs:
-    driver: local
-  esdata01:
-    driver: local
-  esdata02:
-    driver: local
-  esdata03:
-    driver: local
-  kibanadata:
-    driver: local
+  elk-certs:
+    external: true
+  elk-esdata1:
+    external: true
+  elk-esdata2:
+    external: true
+  elk-esdata3:
+    external: true
+  elk-kibana:
+    external: true
+  elk-shared:
+    external: true
+  

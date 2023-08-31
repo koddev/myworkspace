@@ -1,1 +1,2 @@
-/docker/elastic/shared_folder/
+shared_folder*
+*.crt
