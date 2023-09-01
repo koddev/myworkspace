@@ -13,6 +13,7 @@ services:
     user: "0"
     command: >
       bash -c '
+
         if [ x${ELASTIC_PASSWORD} == x ]; then
           echo "Set the ELASTIC_PASSWORD environment variable in the .env file";
           exit 1;
@@ -231,6 +232,9 @@ services:
       - ELASTICSEARCH_USERNAME=kibana_system
       - ELASTICSEARCH_PASSWORD=${KIBANA_PASSWORD}
       - ELASTICSEARCH_SSL_CERTIFICATEAUTHORITIES=config/certs/ca/ca.crt
+      - XPACK_ENCRYPTEDSAVEDOBJECTS_ENCRYPTIONKEY=2fb03f21994196d08cfe23f2292cf971
+      - XPACK_REPORTING_ENCRYPTIONKEY=082e5568fac3c9328183d9884e9d0510
+      - XPACK_SECURITY_ENCRYPTIONKEY=2dabcece5377a8e49271b7e3f754c614
     mem_limit: ${KB_MEM_LIMIT}
     healthcheck:
       test:

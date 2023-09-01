@@ -154,6 +154,9 @@ services:
       # - "SERVER_PUBLICBASEURL=http://localhost:5601"
       - ELASTICSEARCH_USERNAME=kibana_system
       - ELASTICSEARCH_PASSWORD=${KIBANA_PASSWORD}
+      - xpack.encryptedSavedObjects.encryptionKey=2fb03f21994196d08cfe23f2292cf971
+      - xpack.reporting.encryptionKey=082e5568fac3c9328183d9884e9d0510
+      - xpack.security.encryptionKey=2dabcece5377a8e49271b7e3f754c614
     # networks: ['elastic_network']
     ports:
       - 5601:5601
