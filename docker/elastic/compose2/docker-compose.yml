@@ -2,6 +2,8 @@ version: '3.8'
 
 services:
   setup:
+    networks:
+      elk-network: {}
     image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
     volumes:
       - elk-certs:/usr/share/elasticsearch/config/certs
@@ -33,18 +35,24 @@ services:
           "      - localhost\n"\
           "    ip:\n"\
           "      - 127.0.0.1\n"\
+          "      - 200.250.16.140\n"\
+          "      - 192.168.196.190\n"\
           "  - name: es02\n"\
           "    dns:\n"\
           "      - es02\n"\
           "      - localhost\n"\
           "    ip:\n"\
           "      - 127.0.0.1\n"\
+          "      - 200.250.16.140\n"\
+          "      - 192.168.196.190\n"\
           "  - name: es03\n"\
           "    dns:\n"\
           "      - es03\n"\
           "      - localhost\n"\
           "    ip:\n"\
           "      - 127.0.0.1\n"\
+          "      - 200.250.16.140\n"\
+          "      - 192.168.196.190\n"\
           > config/certs/instances.yml;
           bin/elasticsearch-certutil cert --silent --pem -out config/certs/certs.zip --in config/certs/instances.yml --ca-cert config/certs/ca/ca.crt --ca-key config/certs/ca/ca.key;
           unzip config/certs/certs.zip -d config/certs;
@@ -68,6 +76,8 @@ services:
       retries: 120
 
   es01:
+    networks:
+      elk-network: {}
     depends_on:
       setup:
         condition: service_healthy
@@ -114,6 +124,8 @@ services:
       retries: 120
 
   es02:
+    networks:
+      elk-network: {}
     depends_on:
       - es01
     image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
@@ -155,6 +167,8 @@ services:
       retries: 120
 
   es03:
+    networks:
+      elk-network: {}
     depends_on:
       - es02
     image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
@@ -196,6 +210,8 @@ services:
       retries: 120
 
   kibana:
+    networks:
+      elk-network: {}
     depends_on:
       es01:
         condition: service_healthy
@@ -240,3 +256,7 @@ volumes:
   elk-shared:
     external: true
   
+networks:
+  elk-network:
+    external: true
+    name: elk-network
