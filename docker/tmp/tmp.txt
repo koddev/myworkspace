@@ -1,0 +1,78 @@
+docker volume create --driver local --opt type=cifs --opt device=//200.200.208.141/ElasticData/esdata1 --opt o=addr=200.200.208.141,username=UserElastic,password=321ewq321+-,file_mode=0777,dir_mode=0777 --name elk-esdata1
+docker volume create --driver local --opt type=cifs --opt device=//200.200.208.141/ElasticData/esdata2 --opt o=addr=200.200.208.141,username=UserElastic,password=321ewq321+-,file_mode=0777,dir_mode=0777 --name elk-esdata2
+docker volume create --driver local --opt type=cifs --opt device=//200.200.208.141/ElasticData/esdata3 --opt o=addr=200.200.208.141,username=UserElastic,password=321ewq321+-,file_mode=0777,dir_mode=0777 --name elk-esdata3
+docker volume create --driver local --opt type=cifs --opt device=//200.200.208.141/ElasticData/certs --opt o=addr=200.200.208.141,username=UserElastic,password=321ewq321+-,file_mode=0777,dir_mode=0777 --name elk-certs
+docker volume create --driver local --opt type=cifs --opt device=//200.200.208.141/ElasticData/kibana --opt o=addr=200.200.208.141,username=UserElastic,password=321ewq321+-,file_mode=0777,dir_mode=0777 --name elk-kibana
+docker volume create --driver local --opt type=cifs --opt device=//200.200.208.141/ElasticData/shared --opt o=addr=200.200.208.141,username=UserElastic,password=321ewq321+-,file_mode=0777,dir_mode=0777 --name elk-shared
+
+docker run -d -p 8080:80 -v "./nginx.conf:/etc/nginx/nginx.conf" -v "./htpasswd.elastic.users:/etc/nginx/htpasswd.elastic.users" --network mynets --name webserver  web-server
+
+curl --cacert ca.crt -u elastic:kb_112233 https://127.0.0.1:9200/_cat/nodes
+
+
+
+eval "$(oh-my-posh init bash --config ~/.pushthemes/clean-detailed.omp.json)"
+eval "$(oh-my-posh init bash --config ~/.pushthemes/atomic.omp.json)"
+
+oh-my-posh init pwsh --config "C:/Users/cc/.pushthemes/atomic.omp.json" | Invoke-Expression
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
