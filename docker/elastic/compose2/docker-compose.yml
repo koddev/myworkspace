@@ -3,7 +3,7 @@ version: '3.8'
 services:
   setup:
     networks:
-      elk-network: {}
+      elknetwork: {}
     image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
     volumes:
       - elk-certs:/usr/share/elasticsearch/config/certs
@@ -77,7 +77,7 @@ services:
 
   es01:
     networks:
-      elk-network: {}
+      elknetwork: {}
     depends_on:
       setup:
         condition: service_healthy
@@ -125,7 +125,7 @@ services:
 
   es02:
     networks:
-      elk-network: {}
+      elknetwork: {}
     depends_on:
       - es01
     image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
@@ -168,7 +168,7 @@ services:
 
   es03:
     networks:
-      elk-network: {}
+      elknetwork: {}
     depends_on:
       - es02
     image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
@@ -211,7 +211,7 @@ services:
 
   kibana:
     networks:
-      elk-network: {}
+      elknetwork: {}
     depends_on:
       es01:
         condition: service_healthy
@@ -257,6 +257,6 @@ volumes:
     external: true
   
 networks:
-  elk-network:
+  elknetwork:
     external: true
     name: elk-network
