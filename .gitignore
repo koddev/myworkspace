@@ -1,3 +1,124 @@
-shared_folder*
+:shared_folder*
 *.crt
 *.key
+*.log
+temp/
+
+
+
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Dependency directories #
+##########################
+node_modules/
+vendor/
+bower_components/
+
+# Compiled source #
+###################
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.out
+*.a
+*.dylib
+
+# Python #
+##########
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+
+# Ruby #
+########
+*.gem
+*.rbc
+vendor/bundle
+*.rvmrc
+.bundle/
+
+# JavaScript #
+##############
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS Files #
+###############
+.AppleDouble
+.LSOverride
+
+# macOS Finder metadata files #
+###############################
+.DS_Store
+.Spotlight-V100
+.Trashes
+Icon?
+._*
+
+# Windows #
+############
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Compiled object files #
+########################
+*.o
+*.obj
+*.dll
+*.exe
+*.so
+
+# IDEs and Editors #
+####################
+.vscode/
+.idea/
+*.suo
+*.user
+*.rsuser
+*.sln
+*.ncb
+*.psess
+*.pidb
+*.pdb
+
+# Package files #
+#################
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Backup files #
+################
+*~
+*.bak
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Other OS-specific files #
+###########################
+*.lock
+
